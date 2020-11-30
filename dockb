@@ -1,0 +1,2 @@
+#!/bin/bash
+docker image build -t louisross/modelengine-dev:1.0 .

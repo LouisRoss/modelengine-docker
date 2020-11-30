@@ -1,0 +1,9 @@
+#!/bin/bash
+echo $(pwd)
+docker container run \
+-it \
+--rm \
+--name=models \
+-v "$(pwd)":/home/models \
+louisross/modelengine-dev:1.0 \
+bash
