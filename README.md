@@ -8,8 +8,10 @@ available at https://hub.docker.com/repository/docker/louisross/modelengine-dev.
 If for some reason the image can't be run from Docker Hub at the link above,
 you can generate it by cloning this repository and running:
 
+```bash
 > cd modelengine-dev
 > make install
+```
 
 This assumes you have Docker service installed on your machine.  The 'install'
 build target does not install anything on your machine, just downloads the dependent
@@ -18,7 +20,9 @@ to install needed toolchains.
 
 To test the Docker image, run:
 
+```bash
 > ./dock
+```
 
 Which will run the Docker image with and attached console and a mounted volume.
 
